@@ -129,9 +129,9 @@ for single_country in country_list:
                             subreddit = subreddit_r.replace("/r/","")
                             published = row_find[2]
                             time.sleep(10)
-                            my_user_agent = 'ragnampizas'
-                            my_client_id = 'ZLt7y11p6vpB6A'
-                            my_client_secret = '8esV6VJEFgB85DJHToDd1OJGEoU'
+                            my_user_agent = 'INSERT USER NAME'
+                            my_client_id = 'INSERT CLIENT ID'
+                            my_client_secret = 'INSERT CLIENT SECRET'
                             reddit = praw.Reddit(user_agent=my_user_agent,client_id=my_client_id,client_secret=my_client_secret)
                             subreddit = reddit.subreddit(subreddit)
                             reddit_subscribers = subreddit.subscribers
